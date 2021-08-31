@@ -1,0 +1,116 @@
+/* The Css file for the Javascript Function : */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    height: auto;
+    width : 100%;
+    background: linear-gradient(to right, #fffbd5, #b20a2c);
+    background: linear-gradient(to bottom, #3e5151, #decba4); 
+    background: linear-gradient(to bottom, #000428, #004e92);
+    
+
+}
+
+
+
+h3 {
+    color: teal;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+    text-align:center;
+}
+
+h4{
+    color: lightcyan;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.7);
+}
+
+.form-label{
+    font-weight: bold;
+}
+.row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/*  The box-1 */
+
+.box-1 {
+    border : 2px solid black;
+    background-color: rgba(128, 128, 128, 0.342);
+    border-radius: 10px;
+    height:auto;
+}
+
+/* The box-1 */
+
+/* The box-2 styling */
+
+.box-2 {
+    
+    background-color: rgba(128, 128, 128, 0.342);
+    border : 2px solid black;
+    border-radius: 10px;
+    height: 50vh;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+/* The box-2 styling */
+
+
+form {
+    text-align: center;
+}
+
+#sitename {
+    
+    margin: 0px auto;
+    width: 70%;
+}
+
+#siteurl {
+    margin: 0px auto;
+    width: 70%;
+}
+
+
+
+
+
+
+/*  The Box 2 Styling : */
+
+h4 {
+    margin-top: 2px;
+    text-align: center;
+    color :coral;
+}
+
+
+.list-group {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:2px;
+    /* background-color: #2c537a; */
+}
+
+
+.list-group-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width : 100%;
+    margin-bottom: 10px;
+    /* background-color: #2c537a !important; */
+
+}
